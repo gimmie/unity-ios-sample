@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.gimmie.${PRODUCT_NAME}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleDisplayName</key>
+	<string>gimmie-unity3</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>AppIcon72x72@2x~ipad.png</string>
+		<string>AppIcon72x72~ipad.png</string>
+		<string>AppIcon76x76@2x~ipad.png</string>
+		<string>AppIcon76x76~ipad.png</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+	</array>
+	<key>UIInterfaceOrientation</key>
+	<string>UIInterfaceOrientationLandscapeLeft</string>
+	<key>UIPrerenderedIcon</key>
+	<false/>
+	<key>UIRequiresPersistentWiFi</key>
+	<false/>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>UIApplicationExitsOnSuspend</key>
+	<false/>
+	<key>Gimmie</key>
+	<dict>
+		<key>landscape</key>
+		<true/>
+		<key>Show Login Page</key>
+		<false/>
+		<key>api</key>
+		<string>https://api.gimmieworld.com/1/</string>
+		<key>country</key>
+		<string>us</string>
+		<key>key</key>
+		<string>32e938c2621d94dfcfac6c41ca92</string>
+		<key>secret</key>
+		<string>5c192912598feafc0abacba5cd96</string>
+	</dict>
+	<key>Unity_LoadingActivityIndicatorStyle</key>
+	<integer>0</integer>
+</dict>
+</plist>
